@@ -13,9 +13,9 @@ collection = client["wedding"]["guests"]
 # Initialisiere einen leeren DataFrame zum Speichern der Daten
 
 
-st.title("🎉 Anmeldung zum Hochzeitstag 🎉")
-st.caption("🚀 Um uns die Planung etwas zu vereinfachen sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
-st.caption("🤖 Wir freuen uns auf Euch! 🥳")
+st.title("🎉 10 Jahre Roman und Denise 🎉")
+st.caption("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
+st.caption("Wir freuen uns auf Euch! 🥳")
 
 # Formular erstellen
 with st.form(key='my_form'):
@@ -33,7 +33,7 @@ with st.form(key='my_form'):
         collection.insert_one(new_data)
         
         if confirmation == 'Ja':
-            st.success("Vielen Dank " + name + " für deine Anmeldung. Wir freuen uns!")
+            st.success("Vielen Dank " + name + " für deine Anmeldung. Party on! 😎")
             st.balloons()
         else:   
-            st.error("Schade, dass du nicht kommen kannst. Vielleicht klappt es ja beim nächsten Mal.")
+            st.error("Schade, wir haben dich trotzdem lieb :).")
