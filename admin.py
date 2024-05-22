@@ -13,33 +13,6 @@ collection = client["wedding"]["guests"]
 
 st.title("🎉 10 Jahre Roman und Denise 🎉")
 st.caption("Das wollen wir mit euch feiern!")
-with st.container():
-    st.caption("Was: 🥂 Unseren 10ten Hochzeitstag")
-    st.caption("Wann: 📅 21. Juni 2024, ab 19:00 Uhr" )
-    st.caption("Wo: 🏡 In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
-st.caption("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
-st.caption("Wir freuen uns auf Euch! 🥳")
-
-# Formular erstellen
-with st.form(key='my_form'):
-    name = st.text_input(label='Name')
-    confirmation = st.radio(label='Bist du dabei?', options=['Ja', 'Nein'])
-    guests = st.number_input(label='Anzahl der Gäste', min_value=1, max_value=10)
-    submit_button = st.form_submit_button(label='Abschicken')
-
-    if submit_button:
-        new_data = {
-            "name": name,
-            "confirmation": confirmation,
-            "guests": guests
-        }
-        collection.insert_one(new_data)
-        
-        if confirmation == 'Ja':
-            st.success("Vielen Dank " + name + " für deine Anmeldung. Party on! 😎")
-            st.balloons()
-        else:   
-            st.error("Schade, wir haben dich trotzdem lieb :).")
 
 # {
 #   _id: "$confirmation", 
