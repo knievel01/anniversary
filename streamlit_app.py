@@ -14,16 +14,16 @@ collection = client["wedding"]["guests"]
 st.set_page_config(
     page_title="Hochzeitstag Denise & Roman",
     page_icon="🎉",
-    layout="centered",
+    layout="centered"
 )
 
-st.header("🎉 10 Jahre Roman und Denise 🎉")
+st.header("🎉 10 Jahre Roman & Denise 🎉")
 st.subheader("Das wollen wir mit euch feiern!")
 
 st.divider()
-st.caption("Was: 🥂 Unseren 10ten Hochzeitstag")
-st.caption("Wann: 📅 21. Juni 2024, ab 19:00 Uhr" )
-st.caption("Wo: 🏡 In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
+st.caption("Was:  Unseren 10ten Hochzeitstag 🥂")
+st.caption("Wann: 21. Juni 2024, ab 19:00 Uhr 📅 " )
+st.caption("Wo: In der Bunten Mühle,  Buntenweg 47, 33415 Verl 🏡")
 st.divider()
 
 st.caption("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
