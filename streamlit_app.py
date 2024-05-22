@@ -13,7 +13,7 @@ collection = client["wedding"]["guests"]
 # Initialisiere einen leeren DataFrame zum Speichern der Daten
 st.set_page_config(
     page_title="Hochzeitstag Denise & Roman",
-    page_icon="🎉"
+    page_icon="🎉",
     layout="centered",
 )
 
