@@ -14,7 +14,7 @@ collection = client["wedding"]["guests"]
 
 
 st.title("🎉 10 Jahre Roman und Denise 🎉")
-st.header("Das wollen wir mit euch feiern!")
+st.subheader("Das wollen wir mit euch feiern!")
 
 st.divider()
 st.caption("Was: 🥂 Unseren 10ten Hochzeitstag")
