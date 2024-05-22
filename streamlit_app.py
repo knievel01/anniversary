@@ -27,8 +27,8 @@ st.markdown("🏡 Wo: In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
 
 # Formular erstellen
 with st.form(key='my_form'):
-    st.caption("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
-    st.caption("Wir freuen uns auf Euch! 🥳")
+    st.markdown("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
+    st.markdown("Wir freuen uns auf Euch! 🥳")
 
     name = st.text_input(label='Name')
     confirmation = st.radio(label='Bist du dabei?', options=['Ja', 'Nein'])
