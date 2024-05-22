@@ -14,7 +14,7 @@ collection = client["wedding"]["guests"]
 st.set_page_config(
     page_title="Hochzeitstag Denise & Roman",
     page_icon="🎉",
-    layout="centered"
+    layout="wide"
 )
 
 st.header("10 Jahre Roman & Denise")
