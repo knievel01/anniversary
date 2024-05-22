@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 st.header("10 Jahre Roman & Denise")
-st.subheader("🎉 Das wollen wir mit euch feiern! 🎉")
+st.subheader("Das wollen wir mit euch feiern! 🎉")
 st.markdown("🥂 Was: Unseren 10ten Hochzeitstag")
 st.markdown("📅 Wann: 21. Juni 2024, ab 19:00 Uhr" )
 url = "https://maps.app.goo.gl/ed2jhVbfdBhKe5Tb9"
