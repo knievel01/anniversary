@@ -11,9 +11,13 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 collection = client["wedding"]["guests"]
 
 # Initialisiere einen leeren DataFrame zum Speichern der Daten
+st.set_page_config(
+    page_title="Hochzeitstag Denise & Roman",
+    page_icon="🎉"
+    layout="centered",
+)
 
-
-st.title("🎉 10 Jahre Roman und Denise 🎉")
+st.header("🎉 10 Jahre Roman und Denise 🎉")
 st.subheader("Das wollen wir mit euch feiern!")
 
 st.divider()
