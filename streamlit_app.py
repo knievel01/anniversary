@@ -22,8 +22,8 @@ st.subheader("Das wollen wir mit euch feiern!")
 
 st.markdown("🥂 Was: Unseren 10ten Hochzeitstag")
 st.markdown("📅 Wann: 21. Juni 2024, ab 19:00 Uhr" )
-st.markdown("🏡 Wo: '[https://maps.app.goo.gl/ed2jhVbfdBhKe5Tb9](In der Bunten Mühle,  Buntenweg 47, 33415 Verl)'")
-
+url = "https://maps.app.goo.gl/ed2jhVbfdBhKe5Tb9"
+st.markdown("🏡 Wo: [In der Bunten Mühle,  Buntenweg 47, 33415 Verl](%s)" % url)
 
 # Formular erstellen
 with st.form(key='my_form'):
