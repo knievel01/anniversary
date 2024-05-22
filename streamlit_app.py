@@ -15,10 +15,13 @@ collection = client["wedding"]["guests"]
 
 st.title("🎉 10 Jahre Roman und Denise 🎉")
 st.caption("Das wollen wir mit euch feiern!")
-with st.container():
-    st.caption("Was: 🥂 Unseren 10ten Hochzeitstag")
-    st.caption("Wann: 📅 21. Juni 2024, ab 19:00 Uhr" )
-    st.caption("Wo: 🏡 In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
+
+st.divider()
+st.caption("Was: 🥂 Unseren 10ten Hochzeitstag")
+st.caption("Wann: 📅 21. Juni 2024, ab 19:00 Uhr" )
+st.caption("Wo: 🏡 In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
+st.divider()
+
 st.caption("Um uns die Planung etwas zu vereinfachen, sagt bitte kurz Bescheid ob Ihr kommt oder nicht.")
 st.caption("Wir freuen uns auf Euch! 🥳")
 
