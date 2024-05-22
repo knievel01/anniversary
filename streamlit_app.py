@@ -20,7 +20,7 @@ st.set_page_config(
 st.header("🎉 10 Jahre Roman & Denise 🎉")
 st.subheader("Das wollen wir mit euch feiern!")
 
-st.echo("🥂 Was: Unseren 10ten Hochzeitstag")
+st.markdown("🥂 Was: Unseren 10ten Hochzeitstag")
 st.text("📅 Wann: 21. Juni 2024, ab 19:00 Uhr" )
 st.text("🏡 Wo: In der Bunten Mühle,  Buntenweg 47, 33415 Verl")
 
